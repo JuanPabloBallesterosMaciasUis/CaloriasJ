@@ -77,6 +77,19 @@ String mensaje2 = "\n El día con menos calorías es el: " + diasSemanaMenor[dia
     JOptionPane.showMessageDialog(null, caloriasDescendente);
 
 
+    //
+    for (int i=0; i < Calorias.length){
+        if ( Calorias[i]< 2000)
+        calorias [i]= Calorias[i]*1.005;
+    }
+    
+    boolean termino = false
+    for (int i=0; i < Calorias.length && !termino ; i++){
+        if ( Calorias[i]== 2500)
+        termino = true;
+        //Si hay un dia con consumo de 2500
+
+
     }
 
 }
